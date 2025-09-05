@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GoGuate | Contacto</title>
+<link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+<header class="site-header">
+<a class="logo" href="index.html">
+<img src="img/logo.png" alt="Logo GoGuate" />
+<span>GoGuate</span>
+</a>
+<nav class="nav">
+<a class="nav-link" href="index.html">Inicio</a>
+<a class="nav-link" href="hoteles.html">Hoteles</a>
+<a class="nav-link active" href="contacto.html">Contacto</a>
+</nav>
+</header>
+
+<main class="container">
+<h1>Hagamos tu viaje soñado una realidad</h1>
+<p class="lead">Desde las maravillas de Guatemala hasta cualquier rincón del mundo, nuestro equipo de expertos está listo para diseñar tu próxima gran aventura.</p>
+
+<div class="contact-wrapper">
+    <div class="contact-info">
+        <img src="img/Viajes.jpg" alt="Avión despegando sobre un mapa del mundo conceptual" />
+        <h3>Una agencia de viajes sin fronteras</h3>
+        <p>Contamos con una red global de contactos para ofrecerte las mejores experiencias y hoteles, sin importar el destino. Tu única tarea es soñar, nosotros nos encargamos del resto.</p>
+        <ul>
+            <li>Viajes a medida en Guatemala y el mundo.</li>
+            <li>Selección exclusiva de hoteles y tours.</li>
+            <li>Asesoría experta y atención personalizada.</li>
+        </ul>
+        <p><strong>Email:</strong> info@goguate.com<br>
+           <strong>Teléfono:</strong> +502 1234-5678</p>
+    </div>
+
+    <form id="reserva" class="form" action="#" method="post">
+        <h3>Cuéntanos tu plan de viaje</h3>
+        <div class="form-row">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre y apellido" required />
+        </div>
+        <div class="form-row">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+        </div>
+        <div class="form-row">
+            <label for="asunto">Destino(s) de interés</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Ej: Atitlán, Antigua, o París, Roma..." />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Danos más detalles, como fechas tentativas, número de viajeros, etc."></textarea>
+        </div>
+        <button class="btn btn-primario" type="submit">Solicitar Información</button>
+    </form>
+</div>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<small>© 2025 GoGuate</small>
+</div>
+</footer>
+</body>
+</html>
